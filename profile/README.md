@@ -101,4 +101,4 @@ To complement the desktop environment, the following programs (available through
 
 # Looking for Contributors
 
-If you are interested in contributing to a fast, powerful, yet lightweight alternative to the heavyweight desktop environments, feel free to reach out at: nightshade-de@gmail.com
+If you are interested in contributing to a fast, powerful, yet lightweight alternative to the heavyweight desktop environments, feel free to reach out at: nightshade.desktop@gmail.com
