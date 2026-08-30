@@ -2,7 +2,7 @@
 
 NSDE is a lightweight Wayland desktop environment. It aims to approach the desktop experience creatively while focusing on the essential features you actually enjoy using during your daily work. Let's see if that works out! ^^
 
-`Python 3` | `Wayland` | `labwc` | `wxPython` | `Modular Architecture`
+`Python 3` | `Wayland` | `Morph` | `wxPython` | `Modular Architecture`
 
 ---
 
@@ -10,7 +10,7 @@ The Nightshade Desktop Environment evolved from [Fvwm-Nightshade](https://github
 
 Because of this, the underlying foundation has been migrated from X11 to Wayland. Additionally, NSDE relies entirely on Python. A major benefit: the environment can easily be installed and uninstalled anywhere. 
 
-It is completely decoupled from the default labwc configuration. This means that if NSDE is uninstalled, labwc and its previous setup remain completely untouched.
+It is completely decoupled from the default compositor configuration. This means that if NSDE is uninstalled, the used compositor and its previous setup remain completely untouched.
 
 # Roadmap
 Right now, the roadmap looks a bit like a jigsaw puzzle, but the project is still young – the idea was born in September 2025 and has been taking shape piece by piece ever since.
@@ -20,9 +20,9 @@ Right now, the roadmap looks a bit like a jigsaw puzzle, but the project is stil
 
 ## Wayland Compositor in Use
 
-NSDE uses [labwc](https://labwc.github.io/) as its window manager.
+NSDE will use [Morph](https://github.com/Nightshade-DE/Morph/tree/feature/install-and-user-setup) as its main window manager.
 
-Labwc is a lightweight, stacking-based Wayland compositor that supports virtual desktops, themes (Openbox format), and menus, while being exceptionally easy to configure.
+Morph is a stacking, tiling, and scrolling hybrid compositor built with wlroots. The compositor is in a "beta" state - not all is available but you can use it.
 
 ## Central Control Daemon
 
