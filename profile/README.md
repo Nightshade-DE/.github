@@ -20,7 +20,7 @@ Right now, the roadmap looks a bit like a jigsaw puzzle, but the project is stil
 
 ## Wayland Compositor in Use
 
-NSDE will use [Morph](https://github.com/Nightshade-DE/Morph/tree/feature/install-and-user-setup) as its main window manager.
+NSDE will use [Morph](https://github.com/Nightshade-DE/Morph) as its main window manager.
 
 Morph is a stacking, tiling, and scrolling hybrid compositor built with wlroots. The compositor is in a working alpha state - not all is available but you can use it.
 
