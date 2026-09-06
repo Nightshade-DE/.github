@@ -80,13 +80,13 @@ That's why [ld-icons](https://github.com/Nightshade-DE/ld-icons) was created. It
 
 ## Shell Components
 
-In the Wayland ecosystem (similar to GNOME/KDE), the "shell" refers to the component that manages panels, runners, and the desktop background. To realize custom taskbars, button bars, or panels, `SimpleWxCS` is currently under development. Building on top of it, a taskbar in the style of [Waybar](https://github.com/Alexays/Waybar) and an *Activities* concept – heavily inspired by KDE Activities – are being created.
+In the Wayland ecosystem (similar to GNOME/KDE), the "shell" refers to the component that manages panels, runners, and the desktop background. To realize custom taskbars, button bars, or panels, `SimpleWxCS` is currently under development. Building on top of it, a taskbar in the style of [sfwbar](https://github.com/LBCrion/sfwbar) and an *Activities* concept – heavily inspired by KDE Activities – are being created.
 
 ## Power Management
 
-This is on mobile devices essential. But most of the available power managers are included in their desktops environments and bring often too much dependencies with them. Or they haven't enough stearing possibilities: for example closing the lid takes the system into sleep but for a critical battery state another tool is needed and needs configuration. But the power manager GUI doesn't show or tell this mostly.
+This is on mobile devices like laptops essential. But most of the available power managers are included in their desktops environments and bring often too much dependencies with them. Or they haven't enough stearing possibilities: for example closing the lid takes the system into sleep but for a critical battery state another tool is needed and needs configuration. But the power manager GUI doesn't show or tell this mostly.
 
-For such reasons, nspower is currently being created. It is a modular, desktop-agnostic power manager without dependencies on a specific desktop environment. It takes control of battery states and thresholds (warnings and critical actions), handles display idle management, and integrates upower and TLP cleanly.
+For such reasons, [nspower](https://github.com/Nightshade-DE/nspower) is currently being developed. It is a modular, desktop-agnostic power manager without dependencies on a specific desktop environment. It takes control of battery states and thresholds (warnings and critical actions), handles display idle management, and integrates upower and TLP cleanly. A planned SimpleWx GUI will bring all those settings under one hood.
 
 ## Additional Components (3rd-Party Applications)
 
@@ -104,6 +104,11 @@ To complement the desktop environment, the following programs (available through
 - **Idle Daemon:** [hypridle](https://wiki.hypr.land/Hypr-Ecosystem/hypridle/). It simply brings more configuration options than [swayidle](https://github.com/swaywm/swayidle).
 - **Lock Daemon:** [hyprlock](https://wiki.hypr.land/Hypr-Ecosystem/hyprlock/). Offers a ton of customization possibilities.
 - **Session Management:** Currently in the conceptual phase.
+
+## Future Ideas
+
+- There's the idea to implement AI into the desktop like a daily helper - showing the weather app or open an activity. More crazy is the idea of a talking AI like in Star Trek :joy: :upside_down_face:
+
 
 # Looking for Contributors
 
